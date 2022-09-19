@@ -1,0 +1,31 @@
+@import "../node_modules/ant-design-vue/dist/antd.css";
+body,h1{
+  color: #555555;
+}
+
+.ant-form.ant-form-horizontal,.ant-layout-footer,.ant-page-header.ant-page-header-ghost,.ant-layout-content{
+  margin: 0 200px;
+}
+
+@media (max-width: 1450px){
+.ant-form.ant-form-horizontal,.ant-layout-footer,.ant-page-header.ant-page-header-ghost,.ant-layout-content{
+  margin: 0 150px;
+}
+}
+
+@media (max-width: 768px){
+  .ant-form.ant-form-horizontal,.ant-layout-footer,.ant-page-header.ant-page-header-ghost{
+    margin: 0;  
+  }
+
+  .ant-layout-content{
+    margin: 0 50px;
+  }
+}
+
+@media (max-width: 420px){
+  .ant-layout-content{
+    margin: 0 7px;
+  }
+
+}
